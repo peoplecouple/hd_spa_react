@@ -1,0 +1,16 @@
+// npm i -D sass sass깔았음 -> css대신 씀, 장점은 클래스명이 중첩될 일이 없다는 점
+.App {
+  color: pink;
+
+  strong {
+    font-size: 100px;
+  }
+
+  &:hover {
+    color: #369; //&는  .App을 가르킴
+  }
+
+  &.on {
+    color: yellow
+  }
+}

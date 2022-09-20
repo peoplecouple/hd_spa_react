@@ -1,0 +1,15 @@
+.App {
+  color: pink;
+
+  strong {
+    font-size: 100px;
+  }
+
+  &:hover {
+    color: #369;  //&는  .App을 가르킴
+  }
+
+  &.on{
+    color: yellow
+  }
+}
